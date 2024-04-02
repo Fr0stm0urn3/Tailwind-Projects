@@ -12,6 +12,10 @@
   }
 }
 
+.section-content {
+  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-darkGrayishBlue;
+}
+
 .section-container {
   @apply max-w-6xl mx-auto text-center px-10;
 }
