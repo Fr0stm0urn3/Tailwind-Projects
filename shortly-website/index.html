@@ -3,8 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Shortly</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Nav Container -->
+    <nav class="relative p-6 container mx-auto">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center space-x-20">
+          <img src="images/logo.svg" alt="" />
+          <div class="hidden lg:flex space-x-8 font-bold">
+            <a href="#" class="text-grayishViolet duration-200 hover:text-veryDarkViolet"
+              >Features</a
+            >
+            <a href="#" class="text-grayishViolet duration-200 hover:text-veryDarkViolet"
+              >Pricing</a
+            >
+            <a href="#" class="text-grayishViolet duration-200 hover:text-veryDarkViolet"
+              >Resources</a
+            >
+          </div>
+        </div>
+        <div class="hidden lg:flex items-center space-x-6 font-bold text-grayishViolet">
+          <button>
+            <a href="#" class="hover:text-veryDarkViolet duration-200">Login</a>
+          </button>
+          <button>
+            <a
+              href="#"
+              class="bg-cyan inline-block px-8 py-3 font-bold text-white rounded-full hover:opacity-80 hover:scale-95 transition duration-200"
+              >Sign Up</a
+            >
+          </button>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
