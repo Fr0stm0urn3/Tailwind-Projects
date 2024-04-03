@@ -44,8 +44,35 @@
           </button>
         </div>
         <!-- @todo hamburger menu -->
+        <button
+          id="menu-btn"
+          class="block hamburger lg:hidden focus:outline-none"
+          type="button"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
       </div>
       <!-- @todo mobile menu -->
+      <div
+        id="menu"
+        class="absolute p-10 hidden rounded-lg bg-darkViolet left-6 right-6 top-20 z-100"
+      >
+        <div
+          class="flex flex-col space-y-6 w-full justify-center items-center text-white font-bold rounded-sm"
+        >
+          <a href="#" class="hover:scale-95 hover:text-gray-400 transition">Features</a>
+          <a href="#" class="hover:scale-95 hover:text-gray-400 transition">Pricing</a>
+          <a href="#" class="hover:scale-95 hover:text-gray-400 transition">Resources</a>
+          <div class="border-b-2 border-b-gray-400 w-10"></div>
+
+          <a href="#" class="hover:scale-95 transition">Login</a>
+          <a href="#" class="py-3 px-4 rounded-full bg-cyan hover:scale-95 transition"
+            >Sign Up</a
+          >
+        </div>
+      </div>
     </nav>
     <!-- Hero Section -->
     <section>

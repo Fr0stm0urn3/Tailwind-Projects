@@ -36,3 +36,11 @@ function formSubmit(e) {
     alert("Success")
   }
 }
+
+const menuEl = document.getElementById("menu")
+const menuBtn = document.getElementById("menu-btn")
+
+menuBtn.addEventListener("click", () => {
+  menuBtn.classList.toggle("open")
+  menuEl.classList.toggle("hidden")
+})
