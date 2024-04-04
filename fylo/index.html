@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,10 +32,14 @@
       <div
         class="flex space-x-4 items-center justify-center md:space-x-10 md:absolute top-12 right-10"
       >
-        <a href="#" class="text-lg hover:text-accent-cyan hover:scale-105 duration-200"
+        <a
+          href="#features"
+          class="text-lg hover:text-accent-cyan hover:scale-105 duration-200"
           >Features</a
         >
-        <a href="#" class="text-lg hover:text-accent-cyan hover:scale-105 duration-200"
+        <a
+          href="#testimonials"
+          class="text-lg hover:text-accent-cyan hover:scale-105 duration-200"
           >Testimonials</a
         >
         <!-- Dark/light mode button -->
@@ -300,5 +304,72 @@
         </div>
       </div>
     </section>
+    <footer class="bg-darkBlue2">
+      <div class="container mx-auto py-10 px-5">
+        <!-- Flex Container -->
+        <div
+          class="flex flex-col space-y-24 items-center justify-center md:flex-row md:space-y-0 md:justify-between text-white"
+        >
+          <div class="mt-10 space-y-6">
+            <div class="flex items-center space-x-3 md:-mt-10">
+              <div class="w-6">
+                <img src="images/icon-phone.svg" class="scale-10" alt="" />
+              </div>
+              <div>+1-542-123-5142</div>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-6">
+                <img src="images/icon-email.svg" class="scale-10" alt="" />
+              </div>
+              <div>example@fylo.com</div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col space-y-10 text-center text-xl md:flex-row md:text-base md:space-y-0 md:space-x-20 md:items-center"
+          >
+            <div class="flex flex-col space-y-3">
+              <a href="#" class="hover:scale-105 transition">About</a>
+              <a href="#" class="hover:scale-105 transition">Jobs</a>
+              <a href="#" class="hover:scale-105 transition">Press</a>
+              <a href="#" class="hover:scale-105 transition">Blog</a>
+            </div>
+            <div class="flex flex-col space-y-3">
+              <a href="#" class="hover:scale-105 transition">Contact Us</a>
+              <a href="#" class="hover:scale-105 transition">Terms</a>
+              <a href="#" class="hover:scale-105 transition">Privacy</a>
+            </div>
+          </div>
+          <div class="flex justify-center-pb-10 space-x-3">
+            <div>
+              <a href="#">
+                <img
+                  src="images/facebook.svg"
+                  class="p-2 bg-darkBlue rounded-full ficon hover:scale-125 transition duration-200"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="images/twitter.svg"
+                  class="p-2 bg-darkBlue rounded-full ficon hover:scale-125 transition duration-200"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="images/instagram.svg"
+                  class="p-2 bg-darkBlue rounded-full ficon hover:scale-125 transition duration-300"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
