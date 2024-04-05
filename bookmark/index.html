@@ -3,8 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Bookmark</title>
   </head>
-  <body class="bg-black"></body>
+  <body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+      <div class="flex items-center md:justify-between my-6">
+        <div class="z-30">
+          <img src="images/logo-bookmark.svg" id="logo" alt="" />
+        </div>
+        <div class="hidden items-center space-x-8 md:flex">
+          <a
+            href="#features"
+            class="font-semibold text-lg uppercase tracking-widest hover:text-softRed hover:scale-105 transition text-grayishBlue"
+            >Features</a
+          >
+          <a
+            href="#download"
+            class="font-semibold text-lg uppercase tracking-widest hover:text-softRed hover:scale-105 transition text-grayishBlue"
+            >Download</a
+          >
+          <a
+            href="#faq"
+            class="font-semibold text-lg uppercase tracking-widest hover:text-softRed hover:scale-105 transition text-grayishBlue"
+            >FAQ</a
+          >
+          <a
+            href="#"
+            class="px-8 py-2 bg-softRed text-white uppercase rounded-lg hover:scale-110 shadow-md hover:shadow-lg hover:text-softRed hover:bg-black transition duration-200"
+            >Login</a
+          >
+        </div>
+        <div class="flex items-center md:hidden">
+          <button id="menu-btn" class="hamburger">
+            <a href="#" class="" class="hamburger-top"></a>
+            <a href="#" class="" class="hamburger-middle"></a>
+            <a href="#" class="" class="hamburger-bottom"></a>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
