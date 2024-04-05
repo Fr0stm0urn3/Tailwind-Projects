@@ -1,11 +1,11 @@
 const tabs = document.querySelectorAll(".tab")
 const panels = document.querySelectorAll(".panel")
+const hamburgerBtn = document.getElementById("menu-btn")
+const menu = document.getElementById("menu")
+const logo = document.getElementById("logo")
 
 // Tabs menu event listener
 tabs.forEach((tab) => tab.addEventListener("click", onTabClick))
-
-// Hamburger button listener
-btn.addEventListener("click", navToggle)
 
 function onTabClick(e) {
   // Deactivate all tabs
@@ -24,3 +24,15 @@ function onTabClick(e) {
     .getElementsByClassName(classString)[0]
     .classList.remove("hidden")
 }
+
+hamburgerBtn.addEventListener("click", () => {
+  hamburgerBtn.classList.toggle("open")
+  menu.classList.toggle("flex")
+  menu.classList.toggle("hidden")
+
+  if (menu.classList.contains("flex")) {
+    logo.setAttribute("src", "./images/logo-bookmark-footer.svg")
+  } else {
+    logo.setAttribute("src", "./images/logo-bookmark.svg")
+  }
+})

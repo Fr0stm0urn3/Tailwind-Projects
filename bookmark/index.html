@@ -15,7 +15,7 @@
   </head>
   <body class="overflow-x-hidden">
     <nav class="container relative mx-auto p-6">
-      <div class="flex items-center lg:justify-between my-6">
+      <div class="flex items-center justify-between my-6">
         <div class="z-30">
           <img src="images/logo-bookmark.svg" id="logo" alt="" />
         </div>
@@ -41,12 +41,46 @@
             >Login</a
           >
         </div>
-        <div class="flex items-center lg:hidden">
-          <button id="menu-btn" class="hamburger">
-            <a href="#" class="" class="hamburger-top"></a>
-            <a href="#" class="" class="hamburger-middle"></a>
-            <a href="#" class="" class="hamburger-bottom"></a>
-          </button>
+        <button
+          id="menu-btn"
+          class="hamburger z-30 block lg:hidden focus:outline-none hover:scale-110 transtion-all duration-200"
+        >
+          <span href="#" class="hamburger-top"></span>
+          <span href="#" class="hamburger-middle"></span>
+          <span href="#" class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <div
+        id="menu"
+        class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full min-h-screen px-6 pt-24 pb-4 tracking-widest text-white bg-veryDarkBlue uppercase divide-y divide-gray-500 opacity-90"
+      >
+        <div class="w-full py-3 text-center">
+          <a
+            href="#features"
+            class="block hover:scale-105 hover:text-softRed transtion-all duration-200"
+            >Features</a
+          >
+        </div>
+        <div class="w-full py-3 text-center">
+          <a
+            href="#download"
+            class="block hover:scale-105 hover:text-softRed transtion-all duration-200"
+            >Download</a
+          >
+        </div>
+        <div class="w-full py-3 text-center">
+          <a
+            href="#faq"
+            class="block hover:scale-105 hover:text-softRed transtion-all duration-200"
+            >Faq</a
+          >
+        </div>
+        <div class="w-full py-3 text-center">
+          <a
+            href="#"
+            class="block hover:scale-105 hover:text-softRed transtion-all duration-200"
+            >Login</a
+          >
         </div>
       </div>
     </nav>
