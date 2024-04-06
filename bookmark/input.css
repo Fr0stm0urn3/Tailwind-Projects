@@ -55,7 +55,7 @@
   background-color: white;
 }
 
-@media screen(lg) {
+@media (min-width: 1020px) {
   .bg-hero {
     width: 2000px;
     height: 250px;
